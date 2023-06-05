@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get "post", to: "posts#index"
+  get "posts", to: "posts#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   get "posts/new", to:"posts#new"
   # Defines the root path route ("/")
