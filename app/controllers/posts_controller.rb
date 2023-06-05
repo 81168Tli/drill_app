@@ -9,7 +9,6 @@ class PostsController < ApplicationController
 
   def create
     Post.create(memo: params[:memo])
-    redirect_to "/posts"
-
+    redirect_to "/post
   end
 end
